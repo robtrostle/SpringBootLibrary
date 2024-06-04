@@ -7,11 +7,6 @@ Welcome to the spring-boot-library repository! This is a Spring Boot application
 1. [Introduction](#introduction)
 2. [Project Structure](#project-structure)
 3. [Running the Application](#running-the-application)
-4. [Building the Application](#building-the-application)
-5. [Testing the Application](#testing-the-application)
-6. [Data Models and Entities](#data-models-and-entities)
-7. [Repository Configuration](#repository-configuration)
-8. [CORS Configuration](#cors-configuration)
 
 ## 1. Introduction
 
