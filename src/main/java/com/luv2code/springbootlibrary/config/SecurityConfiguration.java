@@ -21,13 +21,14 @@ public class SecurityConfiguration {
     http.authorizeHttpRequests(configurer ->
             configurer
                 .requestMatchers("/api/books/secure/**").authenticated()
-                .requestMatchers("/api/books/**", "/api/reviews/**").permitAll())
+                .requestMatchers("/api/books/**", "/api/reviews/**", "/api/histories/**").permitAll())
         .oauth2ResourceServer((oauth2) -> oauth2
             .jwt(Customizer.withDefaults())
         );
 
 //      add cors filter
     http.cors(Customizer.withDefaults());
+
 //      add content negotiation strategy
     http.setSharedObject(ContentNegotiationStrategy.class, new HeaderContentNegotiationStrategy());
 //      Force a non-empty response body to make unauthorized response body more friendly.
