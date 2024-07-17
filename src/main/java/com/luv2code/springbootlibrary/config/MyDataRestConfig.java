@@ -13,7 +13,7 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 @Configuration
 public class MyDataRestConfig implements RepositoryRestConfigurer {
 
-  private String theAllowedOrigins = "https://robtrostle.github.io/react-library";
+  private String theAllowedOrigins = "https://robtrostle.github.io";
 
   @Override
   public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config,

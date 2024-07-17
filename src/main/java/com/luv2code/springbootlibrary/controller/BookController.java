@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin("https://robtrostle.github.io/react-library")
+@CrossOrigin("https://robtrostle.github.io")
 @RestController
 @RequestMapping("/api/books")
 public class BookController {
