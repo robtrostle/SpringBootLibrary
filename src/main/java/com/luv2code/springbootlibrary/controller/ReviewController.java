@@ -5,8 +5,8 @@ import com.luv2code.springbootlibrary.service.ReviewService;
 import com.luv2code.springbootlibrary.utils.ExtractJWT;
 import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin("http://localhost:3000, https://master.d29o4ngnjdpteo.amplifyapp.com")
 @RestController
-@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RequestMapping("/api/reviews")
 public class ReviewController {
 
