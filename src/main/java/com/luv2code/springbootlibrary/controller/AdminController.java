@@ -6,7 +6,6 @@ import com.luv2code.springbootlibrary.utils.ExtractJWT;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin("https://robtrostle.github.io")
 @RestController
 @RequestMapping("/api/admin")
 public class AdminController {
