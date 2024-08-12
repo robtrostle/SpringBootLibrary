@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-@CrossOrigin("http://localhost:3000, https://master.d29o4ngnjdpteo.amplifyapp.com")
+@CrossOrigin("https://localhost:3000, https://master.d29o4ngnjdpteo.amplifyapp.com")
 @RestController
 @RequestMapping("/api/books")
 public class BookController {
