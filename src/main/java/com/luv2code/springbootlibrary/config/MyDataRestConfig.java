@@ -16,6 +16,7 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
   private String theAllowedOrigins =
                   "http://localhost:3000," +
                   "https://localhost:3000," +
+                  "https://react-spring-boot-library.com," +
                   "https://master.d29o4ngnjdpteo.amplifyapp.com," +
                   "https://staging.d1klcilpxs5qco.amplifyapp.com";
 
